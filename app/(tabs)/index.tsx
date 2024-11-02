@@ -54,7 +54,6 @@ export default function Index() {
       {showAppOptions ? (
         <View style={styles.optionsContainer}>
           <View style={styles.optionsRow}>
-            <Text>Options will go here</Text>
             <IconButton icon="refresh" label="Reset" onPress={onReset} />
             <CircleButton onPress={onAddSticker} />
             <IconButton
@@ -97,7 +96,7 @@ const styles = StyleSheet.create({
   /* @tutinfo Add styles for the new <CODE>View</CODE> components. */
   optionsContainer: {
     position: "absolute",
-    bottom: 80,
+    bottom: 30,
   },
   optionsRow: {
     alignItems: "center",
