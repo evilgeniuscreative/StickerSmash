@@ -49,7 +49,6 @@ export default function EmojiSticker({ imageSize, stickerSource }: Props) {
     return {
       width: withSpring(scaleImage.value),
       height: withSpring(scaleImage.value),
-      containerStyle,
     };
   });
 
